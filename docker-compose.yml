@@ -1,0 +1,26 @@
+services:
+  encryptor:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sistemkey-encryptor
+    command: ["node", "src/local/encryptor-server.js"]
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    environment:
+      PORT: "3000"
+
+  decryptor:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sistemkey-decryptor
+    command: ["node", "src/local/decryptor-server.js"]
+    ports:
+      - "3001:3001"
+    env_file:
+      - .env
+    environment:
+      PORT: "3001"
