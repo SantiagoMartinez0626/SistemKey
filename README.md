@@ -5,7 +5,7 @@ Implementacion local de 2 lambdas en Node.js, con ejecucion por contenedores:
 1. `encryptor`: recibe un JSON, lo firma como `JWS (RS256)` y luego lo cifra en `JWE (RSA-OAEP-256 + A256GCM)`.
 2. `decryptor`: recibe el `JWE`, lo descifra, valida firma y devuelve el `JWT` (JWS) + payload.
 
-## Capturas y arte
+## Capturas AWS
 
 <p align="center">
   <img src="screenshots/AWS.png" alt="Evidencia AWS" width="420" />
