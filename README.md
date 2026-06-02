@@ -10,6 +10,12 @@ Implementacion local de 2 lambdas en Node.js, con ejecucion por contenedores:
 <p align="center">
   <img src="screenshots/AWS.png" alt="Evidencia AWS" width="420" />
 </p>
+<p align="center">
+  <img src="screenshots/Encrypt.png" alt="Evidencia 1" width="420" />
+</p>
+<p align="center">
+  <img src="screenshots/Descrypt.png" alt="Evidencia 2" width="420" />
+</p>
 
 ## Estructura
 
